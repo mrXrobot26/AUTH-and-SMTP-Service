@@ -1,0 +1,6 @@
+@StackOverFlowClone_HostAddress = http://localhost:5084
+
+GET {{StackOverFlowClone_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
