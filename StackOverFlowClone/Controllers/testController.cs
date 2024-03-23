@@ -14,7 +14,6 @@ namespace StackOverFlowClone.Controllers
         {
             this.emailService = emailService;
         }
-
         [HttpPost("SendMail")]
         public async Task<IActionResult> SendMail()
         {
@@ -22,7 +21,7 @@ namespace StackOverFlowClone.Controllers
             {
                 Mailrequest mailrequest = new Mailrequest();
                 mailrequest.ToEmail = "zezoelbessa10@gmail.com";
-                mailrequest.Subject = "Welcome to BessaAPI";
+                mailrequest.Subject = "Welcome to Bessa";
                 mailrequest.Body = GetHtmlcontent();
                 await emailService.SendEmailAsync(mailrequest);
                 return Ok();
@@ -35,8 +34,10 @@ namespace StackOverFlowClone.Controllers
         }
         private string GetHtmlcontent()
         {
-            string Response = "< div >< h1 > Contact us: zezoelbessa10@gmail.com </ h1 ></ div >";
-
+            string Response = "<div style=\"width:100%;background-color:lightblue;text-align:center;margin:10px\">";
+            Response += "<h1>Welcome to Bessa</h1>";
+            Response += "<h2>Thanks you</h2>";
+            Response += "</div>";
             return Response;
         }
     }

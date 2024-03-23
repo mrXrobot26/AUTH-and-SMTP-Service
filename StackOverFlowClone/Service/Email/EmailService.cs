@@ -6,7 +6,7 @@ using StackOverFlowClone.Email;
 
 namespace StackOverFlowClone.Service.Email
 {
-    public class EmailService :IEmailService
+    public class EmailService : IEmailService
     {
         private readonly EmailSettings emailSettings;
         public EmailService(IOptions<EmailSettings> options)

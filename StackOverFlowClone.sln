@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOverFlowClone", "StackOverFlowClone\StackOverFlowClone.csproj", "{AA7A9CE8-3C2B-45D0-A950-DCE698D3E6EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackOverFlowClone", "StackOverFlowClone\StackOverFlowClone.csproj", "{AA7A9CE8-3C2B-45D0-A950-DCE698D3E6EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack.Data", "Stack.Data\Stack.Data.csproj", "{C74DAE52-CC2C-4943-9281-4872E1B4DC13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack.Data", "Stack.Data\Stack.Data.csproj", "{C74DAE52-CC2C-4943-9281-4872E1B4DC13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack.Models", "Stack.Models\Stack.Models.csproj", "{F109B6A2-79BD-4C42-9F97-847BCE05E76A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack.Models", "Stack.Models\Stack.Models.csproj", "{F109B6A2-79BD-4C42-9F97-847BCE05E76A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack.Utilits", "Stack.Utilits\Stack.Utilits.csproj", "{3F72A046-06C7-4B7B-9F6A-B1FC5DE6D9FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F109B6A2-79BD-4C42-9F97-847BCE05E76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F109B6A2-79BD-4C42-9F97-847BCE05E76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F109B6A2-79BD-4C42-9F97-847BCE05E76A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F72A046-06C7-4B7B-9F6A-B1FC5DE6D9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F72A046-06C7-4B7B-9F6A-B1FC5DE6D9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F72A046-06C7-4B7B-9F6A-B1FC5DE6D9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F72A046-06C7-4B7B-9F6A-B1FC5DE6D9FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
